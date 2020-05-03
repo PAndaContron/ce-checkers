@@ -8,7 +8,7 @@
 NAME        ?= CHECKERS
 COMPRESSED  ?= YES
 ICON        ?= iconc.png
-DESCRIPTION ?= "C SDK Demo"
+DESCRIPTION ?= "Checkers board game"
 
 # ----------------------------
 
