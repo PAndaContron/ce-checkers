@@ -33,14 +33,14 @@
 #define CAP_MASK 64
 
 typedef struct {
-	uint32_t color;
-	uint32_t king;
-	uint32_t taken;
+    uint32_t color;
+    uint32_t king;
+    uint32_t taken;
 } board;
 
 struct move_s {
-	int8_t loc;
-	struct move_s *next;
+    int8_t loc;
+    struct move_s *next;
 };
 
 typedef struct move_s move;
