@@ -1,8 +1,5 @@
 #include <tice.h>
 
-#include <debug.h>
-#include <assert.h>
-
 #include "board.h"
 
 void initBoard(board *b) {

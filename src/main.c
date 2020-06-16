@@ -3,8 +3,10 @@
 
 #include <graphx.h>
 
+#ifdef DEBUG
 #include <debug.h>
 #include <assert.h>
+#endif
 
 #include "board.h"
 
