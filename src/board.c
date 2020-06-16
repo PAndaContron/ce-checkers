@@ -202,7 +202,10 @@ bool movesEq(move *m1, move *m2) {
 
 bool validMove(move *m, move *valid, int8_t v_length) {
     int8_t i;
-
+    
+    if (m->loc == -1) {
+        return false;
+    }
     for(i = 0; i < v_length; ++i) {
         if (movesEq(m, valid + i)) {
             return true;
